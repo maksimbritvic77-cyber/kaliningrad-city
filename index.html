@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Гид по Калининграду</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), 
+                        url('https://unsplash.com');
+            background-size: cover;
+            background-position: center;
+            height: 400px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            text-align: center;
+        }
+        h1 { font-size: 3rem; margin: 0; text-shadow: 2px 2px 4px rgba(0,0,0,0.5); }
+        .container {
+            max-width: 800px;
+            margin: -50px auto 50px;
+            background: white;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        }
+        .places {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+            margin-top: 30px;
+        }
+        .place-item {
+            background: #fff8e1;
+            padding: 15px;
+            border-left: 5px solid #edb92e;
+            border-radius: 5px;
+        }
+        .btn {
+            display: inline-block;
+            background: #edb92e;
+            color: black;
+            padding: 12px 25px;
+            text-decoration: none;
+            border-radius: 25px;
+            font-weight: bold;
+            margin-top: 20px;
+            transition: 0.3s;
+        }
+        .btn:hover { background: #d4a527; transform: scale(1.05); }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Калининград</h1>
+    <p>Путешествие в сердце бывшей Восточной Пруссии</p>
+</header>
+
+<div class="container">
+    <h2>О городе</h2>
+    <p>Калининград (до 1946 года — Кёнигсберг) — это уникальное место, где российская современность переплетается с европейской историей. Здесь можно увидеть готические соборы, старинные форты и современные набережные.</p>
+    
+    <h3>Что посетить:</h3>
+    <div class="places">
+        <div class="place-item">
+            <strong>Остров Канта</strong><br>
+            Главный собор и могила философа.
+        </div>
+        <div class="place-item">
+            <strong>Рыбная деревня</strong><br>
+            Этнографический квартал в старом стиле.
+        </div>
+        <div class="place-item">
+            <strong>Музей Мирового океана</strong><br>
+            Корабли, подводная лодка и скелет кита.
+        </div>
+        <div class="place-item">
+            <strong>Район Амалиенау</strong><br>
+            Старинные немецкие виллы.
+        </div>
+    </div>
+
+    <center>
+        <a href="https://yandex.ru" target="_blank" class="btn">Открыть карту достопримечательностей</a>
+    </center>
+</div>
+
+</body>
+</html>
